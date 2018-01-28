@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Itamae::RelativeRecipeGraph::VERSION
   spec.authors       = ['ntrv']
   spec.email         = ['hydrangea56@me.com']
-  spec.summary       = 'Make recipe graph of relative path in itamae.'
-  spec.description   = 'Make recipe graph of relative path in itamae.'
+  spec.summary       = 'Make path of the recipe graph relative in itamae.'
+  spec.description   = 'Make path of the recipe graph relative in itamae.'
   spec.homepage      = 'https://github.com/ntrv/itamae-relative-recipe-graph'
   spec.license       = 'Apache'
 
