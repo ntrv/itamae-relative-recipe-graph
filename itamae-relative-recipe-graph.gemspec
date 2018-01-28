@@ -1,10 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'itamae/relative_recipe_graph/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'itamae-relative-recipe-graph'
-  spec.version       = '0.0.1'
+  spec.version       = Itamae::RelativeRecipeGraph::VERSION
   spec.authors       = ['ntrv']
   spec.email         = ['hydrangea56@me.com']
   spec.summary       = 'Make recipe graph of relative path in itamae.'
